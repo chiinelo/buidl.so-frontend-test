@@ -1,0 +1,56 @@
+.calendarSection button {
+  margin-top: 14px;
+  background: #407bff;
+  border: none;
+  border-radius: 5px;
+  width: 50vw;
+  padding: 1rem;
+  color: #fff;
+  position: relative;
+}
+.calendarSpanButton {
+  padding-right: 30px;
+  color: #000;
+  margin-left: -20px;
+  margin-top: -30px;
+  padding: 0;
+  position: absolute;
+  bottom: 23px;
+  left: 15px;
+}
+.vectorImg {
+  display: none;
+}
+.winnerSection {
+  display: grid;
+  text-align: center;
+  gap: 81px;
+}
+
+.FaqContent {
+  text-align: justify;
+}
+@media (min-width: 720px) {
+  .calendarSection button {
+    width: 20vw;
+  }
+  .vectorImg {
+    display: block;
+  }
+  .winnerSection {
+    display: flex;
+    text-align: center;
+    height: 30vh;
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1200px) { 
+.winnerSection {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    height: none;
+    padding: none;
+  }
+}
